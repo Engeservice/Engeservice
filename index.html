@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -16,6 +17,19 @@
     .contato p { margin: 0.5rem 0; }
     footer { text-align: center; font-size: 0.8rem; color: #777; padding: 1rem; }
     .imagens-servicos img { max-width: 150px; margin: 5px; vertical-align: middle; }
+    .botao-comprar {
+      background-color: #004080;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      transition: background-color 0.3s;
+    }
+    .botao-comprar:hover {
+      background-color: #0066cc;
+    }
   </style>
 </head>
 <body>
@@ -39,20 +53,20 @@
       <li>Projeto de linha de vida</li>
       <li>Cálculo e projeto de estruturas metálicas</li>
       <li>Projetos de galpões, mezaninos e coberturas</li>
-      <li>Elaboração e acompanhamento de planos de manutenção </li>
+      <li>Elaboração e acompanhamento de planos de manutenção</li>
     </ul>
 
     <h3>Soluções em Energia</h3>
     <ul>
       <li>Projetos de Pequenas Centrais Hidrelétricas (CGH)</li>
-      <li>Soluções em Geração de energia </li>
+      <li>Soluções em Geração de energia</li>
       <li>Hidráulica e pneumática</li>
     </ul>
 
     <h3>Inspeções Técnicas Especializadas</h3>
     <ul>
       <li>NR13 – Vasos de pressão, caldeiras e tubulações</li>
-      <li>Ponte rolante (Calculo de repotencialização e inspeção)</li>
+      <li>Ponte rolante (Cálculo de repotencialização e inspeção)</li>
       <li>Inspeção de tanques, caminhões munck e linhas de gás</li>
       <li>Inspeções em brinquedos, bombas, turbinas e torres de resfriamento</li>
       <li>Inspeção de materiais compósitos</li>
@@ -77,14 +91,14 @@
       <img src="ponte-rolante.png" alt="Inspeção de Ponte Rolante">
       <img src="protecao-nr12.png" alt="Adequações à NR12">
       <img src="brinquedos.png" alt="Inspeção de Brinquedos">
-      <img src="galpao.png" alt="galpao.png">
+      <img src="galpao.png" alt="Galpão industrial">
     </div>
   </section>
 
   <section>
     <h2>Comercialização de Peças</h2>
     <p>Além dos nossos serviços técnicos, oferecemos a venda de peças e componentes industriais.</p>
-    
+
     <h3>Principais categorias:</h3>
     <ul>
       <li>Conexões e mangueiras hidráulicas</li>
@@ -92,6 +106,19 @@
       <li>Rolamentos</li>
       <li>Manômetros, termômetros e sensores</li>
     </ul>
+
+    <!-- Botões de categorias -->
+    <div style="text-align: center; margin-top: 1.5rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+      <a href="https://sualoja.cartpanda.com/manometros" target="_blank" class="botao-comprar">
+        Manômetros, Termômetros e Sensores
+      </a>
+      <a href="https://sualoja.cartpanda.com/valvulas-cilindros" target="_blank" class="botao-comprar">
+        Válvulas e Cilindros
+      </a>
+      <a href="https://sualoja.cartpanda.com/conexoes" target="_blank" class="botao-comprar">
+        Conexões e Mangueiras
+      </a>
+    </div>
   </section>
 
   <section class="contato">
@@ -106,5 +133,6 @@
   </footer>
 </body>
 </html>
+
 
 
